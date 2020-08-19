@@ -12,7 +12,9 @@ if PY2:
     zip = itertools.izip
 
 
-logger = logging.getLogger('guidedlda')
+# logger = logging.getLogger('guidedlda')
+## edit 1.9.2020
+logger = logging.getLogger('lda')
 
 
 def check_random_state(seed):

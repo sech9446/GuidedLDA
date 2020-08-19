@@ -5,9 +5,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file, You
 # can obtain one at http://mozilla.org/MPL/2.0/.
 
-import setuptools
+from distutils.core import setup
 
-setuptools.setup(
-    setup_requires=['pbr'],
-    pbr=True
+setup(
+    name='GuidedLDA',
+    version='0.1dev',
+    packages=['guidedlda',],
+    license='Creative Commons Attribution-Noncommercial-Share Alike license',
 )
